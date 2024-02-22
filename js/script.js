@@ -6,15 +6,15 @@ for(let i = 1; i < 100; i++){
   
   if((!(i % 3)) && (!(i % 5))) {
     box.classList.add('tre-cinque');
-    box.innerHTML = 'fizzbuzz';
+    box.innerHTML = 'FizzBuzz';
 
   }else if(!(i % 3)) {
     box.classList.add('tre');
-    box.innerHTML = 'fizz';
+    box.innerHTML = 'Fizz';
     
   }else if(!(i % 5)) {
     box.classList.add('cinque');
-    box.innerHTML = 'buzz';
+    box.innerHTML = 'Buzz';
 
   }else{
     box.innerHTML = i;
